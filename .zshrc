@@ -107,3 +107,5 @@ alias bat="batcat"
 alias ref="cd ~/Documents/ref"
 
 . "$HOME/.local/bin/env"
+
+alias config='/usr/bin/git --git-dir=/home/abbott/.cfg/ --work-tree=/home/abbott'
