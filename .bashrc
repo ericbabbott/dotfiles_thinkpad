@@ -120,4 +120,6 @@ set -o vi
 #########################################################################
 
 . "$HOME/.local/bin/env"
+#
+# add alias for git config repo - in ~/ use 'config' instead of 'git' for commands 
 alias config='/usr/bin/git --git-dir=/home/abbott/.cfg/ --work-tree=/home/abbott'
