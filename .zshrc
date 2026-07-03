@@ -104,8 +104,21 @@ bindkey -v
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ccl="cd ~ && clear"
 alias bat="batcat"
+alias fzfp="fzf --preview 'batcat --style=numbers --color=always  {}'"
+
 alias ref="cd ~/Documents/ref"
+alias qr="nvim ~/Documents/ref/qr.md"
+
+alias dev="cd ~/development_projects"
+alias iq="cd ~/dev_iq"
+alias snakes="cd ~/development_projects/snakes"
 
 . "$HOME/.local/bin/env"
 
 alias config='/usr/bin/git --git-dir=/home/abbott/.cfg/ --work-tree=/home/abbott'
+
+# PATH
+export PATH='/home/abbott/.duckdb/cli/latest':$PATH
+
+export PATH=$PATH:~/.local/bin
+export GPG_TTY=$(tty)
