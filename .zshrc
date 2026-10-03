@@ -106,11 +106,10 @@ alias ccl="cd ~ && clear"
 alias bat="batcat"
 alias fzfp="fzf --preview 'batcat --style=numbers --color=always  {}'"
 
-alias ref="cd ~/Documents/ref"
-alias qr="nvim ~/Documents/ref/qr.md"
+alias _docs="cd ~/Documents/obsidian/vault/abbott"
+alias os_docs="nvim ~/Documents/obsidian/vault/abbott/_docs/os.md"
 
 alias dev="cd ~/development_projects"
-alias iq="cd ~/dev_iq"
 alias snakes="cd ~/development_projects/snakes"
 
 . "$HOME/.local/bin/env"
