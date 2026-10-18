@@ -102,12 +102,18 @@ bindkey -v
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias ccl="cd ~ && clear"
 alias bat="batcat"
 alias fzfp="fzf --preview 'batcat --style=numbers --color=always  {}'"
 
-alias _docs="cd ~/Documents/obsidian/vault/abbott"
-alias os_docs="nvim ~/Documents/obsidian/vault/abbott/_docs/os.md"
+alias _vault="cd ~/Documents/obsidian/vault"
+alias _docs="cd ~/Documents/obsidian/vault/docs"
+alias _tech="cd ~/Documents/obsidian/vault/tech_notes"
+alias _notes="cd ~/Documents/obsidian/vault/abbott"
+
+# open file in vim with alias
+#alias os_docs="nvim ~/Documents/obsidian/vault/abbott/_docs/os.md"
 
 alias dev="cd ~/development_projects"
 alias snakes="cd ~/development_projects/snakes"
